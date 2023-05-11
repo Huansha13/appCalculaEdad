@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Datos de fragmento 2</string>
+    <string name="name_btn_open_frag_2">Mostrar en fragmento 2</string>
+</resources>
