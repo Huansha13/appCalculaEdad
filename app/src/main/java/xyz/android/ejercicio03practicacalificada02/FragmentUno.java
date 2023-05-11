@@ -68,7 +68,7 @@ public class FragmentUno extends Fragment {
                 bundle.putSerializable("persona", persona);
                 fragmentDos.setArguments(bundle);
 
-                // Reemplazar el FragmentoUno por el FragmentoDos
+                // Volvemos a cargar el fragmento 2
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.contenedorFragment2, fragmentDos).commit();
             }
